@@ -1,0 +1,6 @@
+{
+  "name": "NIS BPO Services",
+  "description": "Official corporate website and ROI calculator for NIS BPO Services Pvt Ltd, Kanpur - providing cost-per-acquisition optimized call center and customer support solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
