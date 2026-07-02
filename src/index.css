@@ -11,6 +11,7 @@
 html {
   scroll-behavior: smooth;
   background-color: #f8fafc; /* Slate-50 / Soft Light Background */
+  font-size: 110%;
 }
 
 /* Custom modern scrollbar */

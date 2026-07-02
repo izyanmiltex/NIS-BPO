@@ -98,12 +98,13 @@ export default function ContactPage() {
                       NIS BPO Services Pvt. Ltd.
                     </p>
                     <a
-                      href="https://www.google.com/maps/search/?api=1&query=186+Anandpuri,+Kidwai+Nagar,+Kanpur,+Uttar+Pradesh+208023+India"
+                      href="https://www.google.com/maps/search/?api=1&query=26.441077,80.332927"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-xs text-slate-500 hover:text-[#0b4bce] hover:underline leading-relaxed font-body-alt mt-1 block"
                     >
                       186 Anandpuri, Kidwai Nagar, Kanpur, Uttar Pradesh 208023 India
+                      <span className="block text-[10px] text-slate-400 font-medium mt-0.5">(Map Coordinates: 26.441077, 80.332927)</span>
                     </a>
                   </div>
                 </div>
@@ -132,11 +133,8 @@ export default function ContactPage() {
                     <h3 className="text-xs font-black uppercase tracking-wide text-slate-400 font-sans">
                       Corporate Phone Lines
                     </h3>
-                    <a href="tel:+915122345678" className="text-sm font-bold text-slate-800 block mt-1 hover:text-[#0b4bce]">
-                      +91 (512) 234-5678
-                    </a>
-                    <a href="tel:+919876543210" className="text-xs text-slate-500 block mt-1 hover:text-[#0b4bce]">
-                      +91 98765 43210
+                    <a href="tel:+919511102314" className="text-sm font-bold text-slate-800 block mt-1 hover:text-[#0b4bce]">
+                      +91 95111 02314
                     </a>
                   </div>
                 </div>
@@ -157,7 +155,7 @@ export default function ContactPage() {
                     <Linkedin className="w-4 h-4" />
                   </a>
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/nisbpoofficial?igsh=d2Nkd3ZtaHpsamhu"
                     target="_blank"
                     rel="noreferrer"
                     className="w-10 h-10 rounded-xl bg-[#00b0b9]/5 text-[#00b0b9] hover:bg-[#00b0b9] hover:text-white flex items-center justify-center transition-all duration-200"

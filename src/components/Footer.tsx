@@ -95,12 +95,13 @@ export default function Footer({ onPageChange }: FooterProps) {
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#0b4bce] flex-shrink-0 mt-0.5" />
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=186+Anandpuri,+Kidwai+Nagar,+Kanpur,+Uttar+Pradesh+208023+India"
+                  href="https://www.google.com/maps/search/?api=1&query=26.441077,80.332927"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#0b4bce] hover:underline leading-relaxed"
                 >
                   186 Anandpuri, Kidwai Nagar, Kanpur, Uttar Pradesh 208023 India
+                  <span className="block text-[10px] text-slate-400 font-medium mt-0.5">(Map Coordinates: 26.441077, 80.332927)</span>
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
@@ -111,8 +112,8 @@ export default function Footer({ onPageChange }: FooterProps) {
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#0b4bce] flex-shrink-0" />
-                <a href="tel:+915122345678" className="hover:text-[#0b4bce] hover:underline">
-                  +91 (512) 234-5678
+                <a href="tel:+919511102314" className="hover:text-[#0b4bce] hover:underline">
+                  +91 95111 02314
                 </a>
               </li>
             </ul>
@@ -126,7 +127,7 @@ export default function Footer({ onPageChange }: FooterProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-400">
           <div className="text-left">
             <p className="font-bold text-slate-500 font-body-alt">
-              © 2026 NIS BPO Services Pvt. Ltd. All Rights Reserved.
+              © 2022 NIS BPO Services Pvt. Ltd. All Rights Reserved.
             </p>
           </div>
 
