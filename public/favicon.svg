@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="logoTriangleGrad" x1="10" y1="85" x2="90" y2="85" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a4cd2" />
+      <stop offset="50%" stop-color="#2c69d8" />
+      <stop offset="100%" stop-color="#00b0b9" />
+    </linearGradient>
+  </defs>
+  <path
+    d="M 50,15 L 88,82 L 12,82 Z M 50,33 L 28,73 L 72,73 Z"
+    fill="url(#logoTriangleGrad)"
+    fill-rule="evenodd"
+  />
+</svg>
