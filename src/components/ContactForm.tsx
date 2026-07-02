@@ -137,7 +137,7 @@ export default function ContactForm({ appliedMetrics, onClearMetrics }: ContactF
                   </div>
                   <div className="space-y-0.5">
                     <h4 className="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest font-body-alt">Inquiries &amp; Support</h4>
-                    <p className="text-sm font-black text-slate-900 font-display">contact@nisbpo.com</p>
+                    <p className="text-sm font-black text-slate-900 font-display">hr@nisbpo.com</p>
                     <p className="text-xs text-slate-500 font-body-alt">Response within 12 working hours</p>
                   </div>
                 </div>

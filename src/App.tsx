@@ -13,7 +13,7 @@ import ContactPage from './components/ContactPage';
 import Footer from './components/Footer';
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState<'home' | 'services' | 'team' | 'contact'>('team');
+  const [currentPage, setCurrentPage] = useState<'home' | 'services' | 'team' | 'contact'>('home');
 
   // Smooth scroll to the top of the viewport whenever the active page changes
   useEffect(() => {
@@ -21,11 +21,7 @@ export default function App() {
   }, [currentPage]);
 
   const handlePageChange = (page: 'home' | 'services' | 'team' | 'contact') => {
-    if (page === 'home') {
-      setCurrentPage('team');
-    } else {
-      setCurrentPage(page);
-    }
+    setCurrentPage(page);
   };
 
   return (

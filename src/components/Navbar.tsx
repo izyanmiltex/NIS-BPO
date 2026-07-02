@@ -25,6 +25,7 @@ export default function Navbar({ currentPage, onPageChange, onAdminToggle, isAdm
   }, []);
 
   const navItems = [
+    { label: 'Home', page: 'home' as const },
     { label: 'Services', page: 'services' as const },
     { label: 'About Us', page: 'team' as const },
     { label: 'Contact', page: 'contact' as const },
@@ -48,7 +49,7 @@ export default function Navbar({ currentPage, onPageChange, onAdminToggle, isAdm
           <div className="flex justify-between items-center">
             
             {/* Brand Logo - Recreates the user-uploaded image */}
-            <div className="flex items-center cursor-pointer" onClick={() => onPageChange('team')}>
+            <div className="flex items-center cursor-pointer" onClick={() => onPageChange('home')}>
               <Logo />
             </div>
 

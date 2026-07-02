@@ -16,7 +16,7 @@ export default function Footer({ onPageChange }: FooterProps) {
           
           {/* Brand Col */}
           <div className="md:col-span-5 space-y-4">
-            <div className="cursor-pointer" onClick={() => onPageChange('team')}>
+            <div className="cursor-pointer" onClick={() => onPageChange('home')}>
               <Logo />
             </div>
 
@@ -53,6 +53,14 @@ export default function Footer({ onPageChange }: FooterProps) {
           <div className="md:col-span-3 space-y-4">
             <h4 className="text-xs font-black uppercase tracking-widest text-slate-900 font-display">Navigator</h4>
             <ul className="space-y-3 text-xs font-bold">
+              <li>
+                <button 
+                  onClick={() => onPageChange('home')} 
+                  className="text-slate-500 hover:text-[#0b4bce] transition-colors cursor-pointer font-extrabold block text-left"
+                >
+                  Home
+                </button>
+              </li>
               <li>
                 <button 
                   onClick={() => onPageChange('services')} 
@@ -97,8 +105,8 @@ export default function Footer({ onPageChange }: FooterProps) {
               </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#00b0b9] flex-shrink-0" />
-                <a href="mailto:contact@nisbpo.com" className="hover:text-[#0b4bce] hover:underline">
-                  contact@nisbpo.com
+                <a href="mailto:hr@nisbpo.com" className="hover:text-[#0b4bce] hover:underline">
+                  hr@nisbpo.com
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
@@ -122,10 +130,7 @@ export default function Footer({ onPageChange }: FooterProps) {
             </p>
           </div>
 
-          <div className="flex items-center gap-3">
-            <span className="text-[11px] font-bold tracking-wider text-slate-400 uppercase bg-slate-200/50 px-2 py-1 rounded-md">
-              hello
-            </span>
+          <div className="flex items-center gap-2">
             <span className="flex items-center gap-1 text-[10px] bg-[#0b4bce]/5 px-2.5 py-1 rounded-lg border border-[#0b4bce]/15 font-bold text-[#0b4bce] font-sans uppercase">
               <ShieldCheck className="w-3.5 h-3.5" /> Registered Corporation
             </span>

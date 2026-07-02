@@ -117,10 +117,7 @@ export default function ContactPage() {
                     <h3 className="text-xs font-black uppercase tracking-wide text-slate-400 font-sans">
                       Electronic Mail
                     </h3>
-                    <a href="mailto:contact@nisbpo.com" className="text-sm font-bold text-[#0b4bce] hover:underline block mt-1">
-                      contact@nisbpo.com
-                    </a>
-                    <a href="mailto:hr@nisbpo.com" className="text-xs text-slate-500 hover:underline block mt-1">
+                    <a href="mailto:hr@nisbpo.com" className="text-sm font-bold text-[#0b4bce] hover:underline block mt-1">
                       hr@nisbpo.com
                     </a>
                   </div>
