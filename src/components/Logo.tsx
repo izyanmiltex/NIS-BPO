@@ -9,7 +9,7 @@ export default function Logo({ className = '', isLight = false }: LogoProps) {
   return (
     <div className={`flex flex-col items-center select-none ${className}`}>
       {/* Precision Integrated Triangle Emblem matching the uploaded logo */}
-      <div className="relative w-[104px] h-[81px] md:w-[126px] md:h-[92px] flex-shrink-0">
+      <div className="relative w-[99px] h-[77px] md:w-[120px] md:h-[87px] flex-shrink-0">
         <svg
           className="w-full h-full"
           viewBox="0 0 400 300"
