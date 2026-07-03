@@ -3,11 +3,13 @@ import React from 'react';
 interface LogoProps {
   className?: string;
   isLight?: boolean;
+  align?: 'center' | 'left';
 }
 
-export default function Logo({ className = '', isLight = false }: LogoProps) {
+export default function Logo({ className = '', isLight = false, align = 'center' }: LogoProps) {
+  const isLeft = align === 'left';
   return (
-    <div className={`flex flex-col items-center select-none ${className}`}>
+    <div className={`flex flex-col ${isLeft ? 'items-start' : 'items-center'} select-none ${className}`}>
       {/* Precision Integrated Triangle Emblem matching the uploaded logo */}
       <div className="relative w-[110px] h-[70px] md:w-[140px] md:h-[89px] flex-shrink-0">
         <svg
@@ -62,7 +64,7 @@ export default function Logo({ className = '', isLight = false }: LogoProps) {
       </div>
 
       {/* Slogan centered underneath the triangle in prominent royal blue, scaled down further by another 10% */}
-      <div className="text-[5.4px] md:text-[6.9px] lg:text-[8.4px] font-bold text-[#1444cc] font-serif text-center mt-2 tracking-wide leading-none whitespace-nowrap">
+      <div className={`text-[5.4px] md:text-[6.9px] lg:text-[8.4px] font-bold text-[#1444cc] font-serif ${isLeft ? 'text-left' : 'text-center'} mt-2 tracking-wide leading-none whitespace-nowrap`}>
         Here Success is a journey, not a destination
       </div>
     </div>

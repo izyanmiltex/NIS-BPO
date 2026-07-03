@@ -16,8 +16,8 @@ export default function Footer({ onPageChange }: FooterProps) {
           
           {/* Brand Col */}
           <div className="md:col-span-5 space-y-4">
-            <div className="cursor-pointer" onClick={() => onPageChange('home')}>
-              <Logo />
+            <div className="cursor-pointer animate-fade-in" onClick={() => onPageChange('home')}>
+              <Logo align="left" />
             </div>
 
             <p className="text-xs text-slate-500 leading-relaxed max-w-sm font-body-alt">
